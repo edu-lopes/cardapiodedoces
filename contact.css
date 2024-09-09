@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #9be9de;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #2b0038;
+    border-radius: 20px;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    border-bottom: 4px solid black;
+    background-color: #fff;
+  }
+  
+  body {
+    background-color: #9be9de;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .dona-coruja {
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: lowercase;
+  }
+  
+  .heart {
+    margin-left: 5px;
+    width: 32px;
+  }
+  
+  .nav-ul {
+    list-style: none;
+    margin: 20px;
+  }
+  
+  .link-nav {
+    margin: 12px;
+    font-size: 23px;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+  }
+  
+  .link-nav:hover {
+    color: #fe2380;
+    transition: 0.3s all;
+    text-decoration: underline;
+  }
+  
+  .link-nav:not(:hover) {
+    color: black;
+    transition: 1.4s all;
+  }
