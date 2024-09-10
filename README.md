@@ -9,4 +9,4 @@ Uma confeiteira de produtos caseiros me solicitou uma ideia de layout para um ca
 - HTML
 - CSS
 ##
-O site se baseou mais em design para atender os requisitos da cliente
+O site se baseou mais em design para atender os requisitos da cliente.
